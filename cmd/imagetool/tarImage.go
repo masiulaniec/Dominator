@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/filesystem/tar"
-	objectclient "github.com/Symantec/Dominator/lib/objectserver/client"
+	"github.com/masiulaniec/Dominator/lib/filesystem/tar"
+	objectclient "github.com/masiulaniec/Dominator/lib/objectserver/client"
 )
 
 func tarImageSubcommand(args []string) {

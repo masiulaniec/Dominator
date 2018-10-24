@@ -3,8 +3,8 @@ package client
 import (
 	"encoding/gob"
 
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func listDirectories(client *srpc.Client) ([]image.Directory, error) {

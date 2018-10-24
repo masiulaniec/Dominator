@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/Dominator/imagepublishers/amipublisher"
-	libjson "github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/imagepublishers/amipublisher"
+	libjson "github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 func publishSubcommand(args []string, logger log.DebugLogger) {

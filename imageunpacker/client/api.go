@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/imageunpacker"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/imageunpacker"
 )
 
 func AddDevice(client *srpc.Client, deviceId string, adder func() error) error {

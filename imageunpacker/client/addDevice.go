@@ -3,7 +3,7 @@ package client
 import (
 	"errors"
 
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func addDevice(client *srpc.Client, deviceId string, adder func() error) error {

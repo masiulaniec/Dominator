@@ -7,13 +7,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filegen/client"
-	"github.com/Symantec/Dominator/lib/log/cmdlogger"
-	"github.com/Symantec/Dominator/lib/mdb"
-	"github.com/Symantec/Dominator/lib/mdb/mdbd"
-	"github.com/Symantec/Dominator/lib/objectserver/memory"
-	"github.com/Symantec/Dominator/lib/srpc/setupclient"
-	proto "github.com/Symantec/Dominator/proto/filegenerator"
+	"github.com/masiulaniec/Dominator/lib/filegen/client"
+	"github.com/masiulaniec/Dominator/lib/log/cmdlogger"
+	"github.com/masiulaniec/Dominator/lib/mdb"
+	"github.com/masiulaniec/Dominator/lib/mdb/mdbd"
+	"github.com/masiulaniec/Dominator/lib/objectserver/memory"
+	"github.com/masiulaniec/Dominator/lib/srpc/setupclient"
+	proto "github.com/masiulaniec/Dominator/proto/filegenerator"
 )
 
 var (

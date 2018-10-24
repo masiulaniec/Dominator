@@ -3,7 +3,7 @@ package filesystem
 import (
 	"path"
 
-	"github.com/Symantec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/filter"
 )
 
 func (fs *FileSystem) filter(filter *filter.Filter) *FileSystem {

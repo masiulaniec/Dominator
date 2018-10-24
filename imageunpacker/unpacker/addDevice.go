@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/Symantec/Dominator/lib/mbr"
+	"github.com/masiulaniec/Dominator/lib/mbr"
 )
 
 var sysfsDirectory = "/sys/block"

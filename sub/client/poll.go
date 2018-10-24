@@ -4,10 +4,10 @@ import (
 	"encoding/gob"
 	"errors"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/objectcache"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/sub"
 )
 
 func callPoll(client *srpc.Client, request sub.PollRequest,

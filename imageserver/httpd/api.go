@@ -6,9 +6,9 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/Symantec/Dominator/imageserver/scanner"
-	"github.com/Symantec/Dominator/lib/html"
-	"github.com/Symantec/Dominator/lib/objectserver/filesystem"
+	"github.com/masiulaniec/Dominator/imageserver/scanner"
+	"github.com/masiulaniec/Dominator/lib/html"
+	"github.com/masiulaniec/Dominator/lib/objectserver/filesystem"
 )
 
 type HtmlWriter interface {

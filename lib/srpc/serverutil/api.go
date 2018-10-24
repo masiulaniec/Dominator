@@ -3,7 +3,7 @@ package serverutil
 import (
 	"sync"
 
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 type PerUserMethodLimiter struct {

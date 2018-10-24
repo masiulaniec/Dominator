@@ -1,7 +1,7 @@
 package dominator
 
 import (
-	"github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/proto/sub"
 )
 
 type ClearSafetyShutoffRequest struct {

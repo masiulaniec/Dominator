@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/Dominator/dom/lib"
-	"github.com/Symantec/Dominator/lib/constants"
-	filegenclient "github.com/Symantec/Dominator/lib/filegen/client"
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/objectcache"
-	"github.com/Symantec/Dominator/lib/resourcepool"
-	"github.com/Symantec/Dominator/lib/srpc"
-	subproto "github.com/Symantec/Dominator/proto/sub"
-	"github.com/Symantec/Dominator/sub/client"
+	"github.com/masiulaniec/Dominator/dom/lib"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	filegenclient "github.com/masiulaniec/Dominator/lib/filegen/client"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/resourcepool"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	subproto "github.com/masiulaniec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/sub/client"
 )
 
 var (

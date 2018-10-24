@@ -6,8 +6,8 @@ package mdb
 import (
 	"io"
 
-	"github.com/Symantec/Dominator/lib/tags"
-	"github.com/Symantec/Dominator/lib/verstr"
+	"github.com/masiulaniec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/verstr"
 )
 
 type AwsMetadata struct {

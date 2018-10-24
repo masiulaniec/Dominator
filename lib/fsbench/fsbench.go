@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/wsyscall"
+	"github.com/masiulaniec/Dominator/lib/wsyscall"
 )
 
 const (

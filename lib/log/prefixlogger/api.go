@@ -3,8 +3,8 @@ package prefixlogger
 import (
 	"fmt"
 
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/debuglogger"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/debuglogger"
 )
 
 type Logger struct {

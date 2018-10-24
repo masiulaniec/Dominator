@@ -3,11 +3,11 @@ package images
 import (
 	"time"
 
-	"github.com/Symantec/Dominator/imageserver/client"
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/stringutil"
+	"github.com/masiulaniec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/stringutil"
 )
 
 func newManager(imageServerAddress string, logger log.Logger) *Manager {

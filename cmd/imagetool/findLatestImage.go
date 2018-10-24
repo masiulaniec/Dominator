@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/imageserver/client"
 )
 
 func findLatestImageSubcommand(args []string) {

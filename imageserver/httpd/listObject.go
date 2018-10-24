@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/objectserver/filesystem"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/objectserver/filesystem"
 )
 
 func listObject(writer io.Writer, objSrv *filesystem.ObjectServer,

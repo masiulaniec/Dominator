@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Symantec/Dominator/imagepublishers/amipublisher"
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/imagepublishers/amipublisher"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 func importKeyPairSubcommand(args []string, logger log.DebugLogger) {

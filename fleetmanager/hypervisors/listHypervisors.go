@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/url"
-	proto "github.com/Symantec/Dominator/proto/fleetmanager"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/url"
+	proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
 )
 
 const (

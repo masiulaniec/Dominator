@@ -10,8 +10,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Symantec/Dominator/lib/format"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/format"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 const (

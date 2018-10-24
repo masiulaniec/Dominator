@@ -3,7 +3,7 @@ package objectserver
 import (
 	"io"
 
-	"github.com/Symantec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/hash"
 )
 
 func getObject(objSrv ObjectServer, hashVal hash.Hash) (

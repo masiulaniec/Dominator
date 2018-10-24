@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/objectcache"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/sub"
 )
 
 func fetchSubcommand(getSubClient getSubClientFunc, args []string) {

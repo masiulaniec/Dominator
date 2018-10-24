@@ -4,9 +4,9 @@ import (
 	gonet "net"
 	gorpc "net/rpc"
 
-	"github.com/Symantec/Dominator/lib/connpool"
-	"github.com/Symantec/Dominator/lib/net"
-	"github.com/Symantec/Dominator/lib/net/rpc"
+	"github.com/masiulaniec/Dominator/lib/connpool"
+	"github.com/masiulaniec/Dominator/lib/net"
+	"github.com/masiulaniec/Dominator/lib/net/rpc"
 )
 
 var (

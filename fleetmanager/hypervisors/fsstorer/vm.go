@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func (s *Storer) deleteVm(hypervisor net.IP, ipAddr string) error {

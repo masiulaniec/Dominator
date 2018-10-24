@@ -3,9 +3,9 @@ package client
 import (
 	"time"
 
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func AddImage(client *srpc.Client, name string, img *image.Image) error {

@@ -7,12 +7,12 @@ import (
 	"path"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/filesystem/scanner"
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/objectcache"
-	"github.com/Symantec/Dominator/lib/wsyscall"
-	proto "github.com/Symantec/Dominator/proto/imageunpacker"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/filesystem/scanner"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/wsyscall"
+	proto "github.com/masiulaniec/Dominator/proto/imageunpacker"
 )
 
 func (u *Unpacker) prepareForUnpack(streamName string, skipIfPrepared bool,

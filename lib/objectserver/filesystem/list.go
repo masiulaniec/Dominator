@@ -1,7 +1,7 @@
 package filesystem
 
 import (
-	"github.com/Symantec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/hash"
 )
 
 func (objSrv *ObjectServer) listObjectSizes() map[hash.Hash]uint64 {

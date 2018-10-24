@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/hash"
-	proto "github.com/Symantec/Dominator/proto/rsync"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	proto "github.com/masiulaniec/Dominator/proto/rsync"
 )
 
 type measuringConn struct {

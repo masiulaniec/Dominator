@@ -5,8 +5,8 @@ import (
 	"net"
 	"os"
 
-	hyperclient "github.com/Symantec/Dominator/hypervisor/client"
-	"github.com/Symantec/Dominator/lib/log"
+	hyperclient "github.com/masiulaniec/Dominator/hypervisor/client"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 func stopVmSubcommand(args []string, logger log.DebugLogger) {

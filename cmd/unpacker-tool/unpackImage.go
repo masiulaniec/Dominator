@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/imageunpacker/client"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/imageunpacker/client"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func unpackImageSubcommand(srpcClient *srpc.Client, args []string) {

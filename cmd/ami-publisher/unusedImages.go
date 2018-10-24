@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/Symantec/Dominator/imagepublishers/amipublisher"
-	"github.com/Symantec/Dominator/lib/fsutil"
-	libjson "github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	libtags "github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/imagepublishers/amipublisher"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	libjson "github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	libtags "github.com/masiulaniec/Dominator/lib/tags"
 )
 
 const (

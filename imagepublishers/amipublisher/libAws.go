@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/awsutil"
-	"github.com/Symantec/Dominator/lib/log"
-	libtags "github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/awsutil"
+	"github.com/masiulaniec/Dominator/lib/log"
+	libtags "github.com/masiulaniec/Dominator/lib/tags"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/s3"

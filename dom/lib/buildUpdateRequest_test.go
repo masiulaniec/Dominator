@@ -6,12 +6,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/filter"
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/log/testlogger"
-	subproto "github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/log/testlogger"
+	subproto "github.com/masiulaniec/Dominator/proto/sub"
 )
 
 type fileInfo struct {

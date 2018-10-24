@@ -5,7 +5,7 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/Symantec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/format"
 )
 
 func writeNamedStat(writer io.Writer, name string, value uint64) {

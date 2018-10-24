@@ -3,8 +3,8 @@ package main
 import (
 	"runtime"
 
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 func logMemoryUsage(logger log.DebugLogger) {

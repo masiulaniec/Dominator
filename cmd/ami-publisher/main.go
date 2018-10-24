@@ -6,13 +6,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/awsutil"
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/flags/loadflags"
-	liblog "github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/cmdlogger"
-	"github.com/Symantec/Dominator/lib/srpc/setupclient"
-	libtags "github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/awsutil"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/flags/loadflags"
+	liblog "github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/cmdlogger"
+	"github.com/masiulaniec/Dominator/lib/srpc/setupclient"
+	libtags "github.com/masiulaniec/Dominator/lib/tags"
 )
 
 var (

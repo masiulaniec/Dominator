@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/objectserver"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/objectserver"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/objectserver"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/objectserver"
 )
 
 func testBandwidthFromServerSubcommand(objSrv objectserver.ObjectServer,

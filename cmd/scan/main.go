@@ -12,13 +12,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filter"
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/fsbench"
-	"github.com/Symantec/Dominator/lib/fsrateio"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/memstats"
-	"github.com/Symantec/Dominator/sub/scanner"
+	"github.com/masiulaniec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/fsbench"
+	"github.com/masiulaniec/Dominator/lib/fsrateio"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/memstats"
+	"github.com/masiulaniec/Dominator/sub/scanner"
 )
 
 var (

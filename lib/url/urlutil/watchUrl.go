@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 func watchUrl(rawurl string, checkInterval time.Duration,

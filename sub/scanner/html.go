@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/format"
 )
 
 func (fsh *FileSystemHistory) writeHtml(writer io.Writer) {

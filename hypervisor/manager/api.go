@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/tags"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/tags"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 type addressPoolType struct {

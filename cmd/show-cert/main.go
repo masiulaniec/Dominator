@@ -8,7 +8,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/Symantec/Dominator/lib/x509util"
+	"github.com/masiulaniec/Dominator/lib/x509util"
 )
 
 func printUsage() {

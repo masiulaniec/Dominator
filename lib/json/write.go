@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
 )
 
 func writeToFile(filename string, perm os.FileMode, indent string,

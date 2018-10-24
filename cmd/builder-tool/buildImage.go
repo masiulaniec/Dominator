@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/log"
-	proto "github.com/Symantec/Dominator/proto/imaginator"
+	"github.com/masiulaniec/Dominator/lib/log"
+	proto "github.com/masiulaniec/Dominator/proto/imaginator"
 )
 
 func buildImageSubcommand(args []string, logger log.Logger) {

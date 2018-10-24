@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func estimateImageUsageSubcommand(args []string) {

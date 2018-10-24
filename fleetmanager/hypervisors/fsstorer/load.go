@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/tags"
 )
 
 var zeroIP = IP{}

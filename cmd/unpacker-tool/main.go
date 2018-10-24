@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/srpc/setupclient"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc/setupclient"
 )
 
 var (

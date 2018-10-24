@@ -1,7 +1,7 @@
 package topology
 
 import (
-	"github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func (left *Topology) equal(right *Topology) bool {

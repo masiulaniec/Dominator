@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/nulllogger"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/nulllogger"
 )
 
 func newDialer(rawDialer *net.Dialer, serveMux *http.ServeMux,

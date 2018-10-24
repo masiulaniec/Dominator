@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filter"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/triggers"
+	"github.com/masiulaniec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/triggers"
 )
 
 type imageBuilder interface {

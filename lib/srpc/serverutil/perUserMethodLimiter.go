@@ -3,7 +3,7 @@ package serverutil
 import (
 	"fmt"
 
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func newPerUserMethodLimiter(

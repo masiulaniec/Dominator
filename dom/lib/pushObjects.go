@@ -1,9 +1,9 @@
 package lib
 
 import (
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/log"
-	objectclient "github.com/Symantec/Dominator/lib/objectserver/client"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/log"
+	objectclient "github.com/masiulaniec/Dominator/lib/objectserver/client"
 )
 
 func (sub *Sub) pushObjects(objectsToPush map[hash.Hash]struct{},

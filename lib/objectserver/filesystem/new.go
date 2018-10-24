@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/concurrent"
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/concurrent"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
 )
 
 func newObjectServer(baseDir string, logger log.Logger) (

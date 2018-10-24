@@ -3,10 +3,10 @@ package sub
 import (
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/objectcache"
-	"github.com/Symantec/Dominator/lib/triggers"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/triggers"
 )
 
 type BoostCpuLimitRequest struct{}

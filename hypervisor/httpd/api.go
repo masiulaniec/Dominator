@@ -6,8 +6,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/Symantec/Dominator/hypervisor/manager"
-	"github.com/Symantec/Dominator/lib/html"
+	"github.com/masiulaniec/Dominator/hypervisor/manager"
+	"github.com/masiulaniec/Dominator/lib/html"
 )
 
 type HtmlWriter interface {

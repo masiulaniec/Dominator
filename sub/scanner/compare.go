@@ -3,8 +3,8 @@ package scanner
 import (
 	"io"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
 )
 
 func compareFileSystems(left, right *FileSystem, logWriter io.Writer) bool {

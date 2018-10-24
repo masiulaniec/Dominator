@@ -3,7 +3,7 @@ package scanner
 import (
 	"time"
 
-	"github.com/Symantec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
 )
 
 func (fsh *FileSystemHistory) update(newFS *FileSystem) {

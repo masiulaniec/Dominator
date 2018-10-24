@@ -4,7 +4,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/format"
 )
 
 func (objSrv *ObjectServer) garbageCollector() (uint64, error) {

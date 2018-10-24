@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/format"
 )
 
 var timeFormat string = "02 Jan 2006 15:04:05.99 MST"

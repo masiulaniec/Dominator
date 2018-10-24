@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/Dominator/imageserver/client"
-	"github.com/Symantec/Dominator/lib/configwatch"
-	libjson "github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/url/urlutil"
+	"github.com/masiulaniec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/lib/configwatch"
+	libjson "github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/url/urlutil"
 )
 
 func imageStreamsDecoder(reader io.Reader) (interface{}, error) {

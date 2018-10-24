@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/mdb"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/mdb"
 )
 
 type jsonType struct{}

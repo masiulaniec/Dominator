@@ -1,8 +1,8 @@
 package image
 
 import (
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/hash"
 )
 
 func (image *Image) forEachObject(objectFunc func(hash.Hash) error) error {

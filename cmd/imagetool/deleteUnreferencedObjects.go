@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Symantec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/imageserver/client"
 )
 
 func deleteUnreferencedObjectsSubcommand(args []string) {

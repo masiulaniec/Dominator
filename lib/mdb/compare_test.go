@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/tags"
 )
 
 func makeNonzeroMachine(t *testing.T) Machine {

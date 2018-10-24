@@ -5,10 +5,10 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/objectcache"
-	"github.com/Symantec/Dominator/lib/objectserver"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/objectserver"
 )
 
 const filePerms = syscall.S_IRUSR | syscall.S_IWUSR | syscall.S_IRGRP

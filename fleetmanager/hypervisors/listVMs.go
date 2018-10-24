@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/url"
-	"github.com/Symantec/Dominator/lib/verstr"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/url"
+	"github.com/masiulaniec/Dominator/lib/verstr"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 const commonStyleSheet string = `<style>

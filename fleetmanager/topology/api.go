@@ -4,10 +4,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/tags"
-	fm_proto "github.com/Symantec/Dominator/proto/fleetmanager"
-	hyper_proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/tags"
+	fm_proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
+	hyper_proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 type Directory struct {

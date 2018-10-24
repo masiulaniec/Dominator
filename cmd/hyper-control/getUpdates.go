@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	fm_proto "github.com/Symantec/Dominator/proto/fleetmanager"
-	hyper_proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	fm_proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
+	hyper_proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func getUpdatesSubcommand(args []string, logger log.DebugLogger) {

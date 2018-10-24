@@ -3,8 +3,8 @@ package client
 import (
 	"path"
 
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/imageunpacker"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/imageunpacker"
 )
 
 func associateStreamWithDevice(srpcClient *srpc.Client, streamName string,

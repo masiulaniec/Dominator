@@ -6,8 +6,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Symantec/Dominator/fleetmanager/topology"
-	"github.com/Symantec/Dominator/lib/html"
+	"github.com/masiulaniec/Dominator/fleetmanager/topology"
+	"github.com/masiulaniec/Dominator/lib/html"
 )
 
 func (s *Server) getTopology() *topology.Topology {

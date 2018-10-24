@@ -6,12 +6,12 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/Symantec/Dominator/imageunpacker/httpd"
-	"github.com/Symantec/Dominator/imageunpacker/rpcd"
-	"github.com/Symantec/Dominator/imageunpacker/unpacker"
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/log/serverlogger"
-	"github.com/Symantec/Dominator/lib/srpc/setupserver"
+	"github.com/masiulaniec/Dominator/imageunpacker/httpd"
+	"github.com/masiulaniec/Dominator/imageunpacker/rpcd"
+	"github.com/masiulaniec/Dominator/imageunpacker/unpacker"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/log/serverlogger"
+	"github.com/masiulaniec/Dominator/lib/srpc/setupserver"
 	"github.com/Symantec/tricorder/go/tricorder"
 )
 

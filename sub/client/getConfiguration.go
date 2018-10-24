@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/sub"
 )
 
 func getConfiguration(client *srpc.Client) (sub.Configuration, error) {

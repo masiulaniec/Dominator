@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/tags"
 )
 
 const (

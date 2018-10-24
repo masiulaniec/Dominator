@@ -5,8 +5,8 @@ import (
 	"path"
 	"syscall"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/json"
 )
 
 const filePerms = syscall.S_IRUSR | syscall.S_IWUSR | syscall.S_IRGRP |

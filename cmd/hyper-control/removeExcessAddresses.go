@@ -5,10 +5,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func removeExcessAddressesSubcommand(args []string, logger log.DebugLogger) {

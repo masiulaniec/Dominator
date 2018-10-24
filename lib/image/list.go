@@ -1,8 +1,8 @@
 package image
 
 import (
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/objectserver"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/objectserver"
 )
 
 func (image *Image) listObjects() []hash.Hash {

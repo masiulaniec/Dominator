@@ -5,11 +5,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/objectserver"
-	"github.com/Symantec/Dominator/lib/stringutil"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/objectserver"
+	"github.com/masiulaniec/Dominator/lib/stringutil"
 )
 
 // TODO: the types should probably be moved into a separate package, leaving

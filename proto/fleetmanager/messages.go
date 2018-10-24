@@ -3,8 +3,8 @@ package fleetmanager
 import (
 	"net"
 
-	"github.com/Symantec/Dominator/lib/tags"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/tags"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 type ChangeMachineTagsRequest struct {

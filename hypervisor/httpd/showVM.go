@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/url"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/url"
 )
 
 func (s state) showVMHandler(w http.ResponseWriter, req *http.Request) {

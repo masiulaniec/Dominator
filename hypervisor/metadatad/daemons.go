@@ -10,10 +10,10 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/prefixlogger"
-	"github.com/Symantec/Dominator/lib/wsyscall"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/prefixlogger"
+	"github.com/masiulaniec/Dominator/lib/wsyscall"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 type statusType struct {

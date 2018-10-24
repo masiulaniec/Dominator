@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func listImages(client *srpc.Client) ([]string, error) {

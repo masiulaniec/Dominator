@@ -13,10 +13,10 @@ import (
 	"path"
 	"time"
 
-	libjson "github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/prefixlogger"
-	libnet "github.com/Symantec/Dominator/lib/net"
+	libjson "github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/prefixlogger"
+	libnet "github.com/masiulaniec/Dominator/lib/net"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/log/debuglogger"
-	"github.com/Symantec/Dominator/lib/logbuf"
+	"github.com/masiulaniec/Dominator/lib/log/debuglogger"
+	"github.com/masiulaniec/Dominator/lib/logbuf"
 )
 
 var (

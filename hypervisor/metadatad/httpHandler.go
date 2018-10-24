@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/json"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/json"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func (s *server) computePaths() {

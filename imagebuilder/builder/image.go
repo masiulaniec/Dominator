@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filesystem/util"
-	"github.com/Symantec/Dominator/lib/filter"
-	"github.com/Symantec/Dominator/lib/format"
-	objectclient "github.com/Symantec/Dominator/lib/objectserver/client"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/triggers"
+	"github.com/masiulaniec/Dominator/lib/filesystem/util"
+	"github.com/masiulaniec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/format"
+	objectclient "github.com/masiulaniec/Dominator/lib/objectserver/client"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/triggers"
 )
 
 func (stream *imageStreamType) build(b *Builder, client *srpc.Client,

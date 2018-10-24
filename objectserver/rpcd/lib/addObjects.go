@@ -3,10 +3,10 @@ package lib
 import (
 	"io"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/objectserver"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/objectserver"
 )
 
 func addObjects(conn *srpc.Conn, decoder srpc.Decoder, encoder srpc.Encoder,

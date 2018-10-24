@@ -3,7 +3,7 @@ package herd
 import (
 	"time"
 
-	"github.com/Symantec/Dominator/lib/cpusharer"
+	"github.com/masiulaniec/Dominator/lib/cpusharer"
 	"github.com/Symantec/tricorder/go/tricorder"
 	"github.com/Symantec/tricorder/go/tricorder/units"
 )

@@ -6,15 +6,15 @@ import (
 	"io"
 	"os"
 
-	"github.com/Symantec/Dominator/imageserver/client"
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/filter"
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/image"
-	objectclient "github.com/Symantec/Dominator/lib/objectserver/client"
-	"github.com/Symantec/Dominator/lib/srpc"
-	subclient "github.com/Symantec/Dominator/sub/client"
+	"github.com/masiulaniec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/image"
+	objectclient "github.com/masiulaniec/Dominator/lib/objectserver/client"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	subclient "github.com/masiulaniec/Dominator/sub/client"
 )
 
 func addImagesubSubcommand(args []string) {

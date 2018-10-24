@@ -3,10 +3,10 @@ package rpcd
 import (
 	"fmt"
 
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/fleetmanager"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
 )
 
 func (t *srpcType) GetHypervisorForVM(conn *srpc.Conn,

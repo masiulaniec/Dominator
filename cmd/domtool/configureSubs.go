@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/dominator"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/dominator"
 )
 
 func configureSubsSubcommand(client *srpc.Client, args []string) {

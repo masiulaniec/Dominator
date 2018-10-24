@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/tags"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 type Decoder func(reader io.Reader) (interface{}, error)

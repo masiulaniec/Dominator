@@ -8,10 +8,10 @@ import (
 	"path"
 	"sort"
 
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/net/util"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/net/util"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 var (

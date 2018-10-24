@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 // Open will open the URL given by url. A io.ReadCloser is returned, which must

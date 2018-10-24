@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/url"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/url"
 )
 
 func (m *Manager) showHypervisorHandler(w http.ResponseWriter,

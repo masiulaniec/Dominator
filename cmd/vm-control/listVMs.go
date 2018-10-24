@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/verstr"
-	fm_proto "github.com/Symantec/Dominator/proto/fleetmanager"
-	hyper_proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/verstr"
+	fm_proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
+	hyper_proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func listVMsSubcommand(args []string, logger log.DebugLogger) {

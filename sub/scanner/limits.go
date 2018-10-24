@@ -1,7 +1,7 @@
 package scanner
 
 import (
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 func (configuration *Configuration) boostCpuLimit(logger log.Logger) {

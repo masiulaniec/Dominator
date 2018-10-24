@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/sub/client"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/sub/client"
 )
 
 func getFileSubcommand(getSubClient getSubClientFunc, args []string) {

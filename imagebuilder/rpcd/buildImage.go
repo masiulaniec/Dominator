@@ -1,8 +1,8 @@
 package rpcd
 
 import (
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/imaginator"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/imaginator"
 )
 
 func (t *srpcType) BuildImage(conn *srpc.Conn, request proto.BuildImageRequest,

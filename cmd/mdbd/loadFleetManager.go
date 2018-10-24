@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/mdb"
-	"github.com/Symantec/Dominator/lib/srpc"
-	fm_proto "github.com/Symantec/Dominator/proto/fleetmanager"
-	hyper_proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/mdb"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	fm_proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
+	hyper_proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 type fleetManagerGeneratorType struct {

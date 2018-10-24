@@ -3,10 +3,10 @@ package util
 import (
 	"os"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/mbr"
-	"github.com/Symantec/Dominator/lib/objectserver"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/mbr"
+	"github.com/masiulaniec/Dominator/lib/objectserver"
 )
 
 type ComputedFile struct {

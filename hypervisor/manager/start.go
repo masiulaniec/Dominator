@@ -11,12 +11,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log/prefixlogger"
-	"github.com/Symantec/Dominator/lib/meminfo"
-	"github.com/Symantec/Dominator/lib/rpcclientpool"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log/prefixlogger"
+	"github.com/masiulaniec/Dominator/lib/meminfo"
+	"github.com/masiulaniec/Dominator/lib/rpcclientpool"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 	"github.com/Symantec/tricorder/go/tricorder/messages"
 	trimsg "github.com/Symantec/tricorder/go/tricorder/messages"
 )

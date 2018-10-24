@@ -4,10 +4,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/verstr"
-	"github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/verstr"
+	"github.com/masiulaniec/Dominator/proto/sub"
 )
 
 func loadConfiguration(confDir string, conf *sub.Configuration,

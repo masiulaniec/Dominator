@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/net"
-	"github.com/Symantec/Dominator/lib/x509util"
+	"github.com/masiulaniec/Dominator/lib/net"
+	"github.com/masiulaniec/Dominator/lib/x509util"
 	"github.com/Symantec/tricorder/go/tricorder"
 	"github.com/Symantec/tricorder/go/tricorder/units"
 )

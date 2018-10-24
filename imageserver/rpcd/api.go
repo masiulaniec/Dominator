@@ -6,10 +6,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/Symantec/Dominator/imageserver/scanner"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/objectserver"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/imageserver/scanner"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/objectserver"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 var (

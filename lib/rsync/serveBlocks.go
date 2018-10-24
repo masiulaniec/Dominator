@@ -4,8 +4,8 @@ import (
 	"crypto/sha512"
 	"io"
 
-	"github.com/Symantec/Dominator/lib/hash"
-	proto "github.com/Symantec/Dominator/proto/rsync"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	proto "github.com/masiulaniec/Dominator/proto/rsync"
 )
 
 func serveBlocks(conn Conn, decoder Decoder, encoder Encoder,

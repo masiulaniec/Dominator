@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/flagutil"
-	"github.com/Symantec/Dominator/lib/log/cmdlogger"
-	"github.com/Symantec/Dominator/lib/log/debuglogger"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/srpc/setupclient"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/flagutil"
+	"github.com/masiulaniec/Dominator/lib/log/cmdlogger"
+	"github.com/masiulaniec/Dominator/lib/log/debuglogger"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc/setupclient"
 )
 
 var (

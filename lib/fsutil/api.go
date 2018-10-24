@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 var (

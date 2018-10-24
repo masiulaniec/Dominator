@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/connpool"
-	"github.com/Symantec/Dominator/lib/resourcepool"
+	"github.com/masiulaniec/Dominator/lib/connpool"
+	"github.com/masiulaniec/Dominator/lib/resourcepool"
 )
 
 var (

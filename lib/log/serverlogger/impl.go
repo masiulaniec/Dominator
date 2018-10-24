@@ -6,10 +6,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Symantec/Dominator/lib/log/debuglogger"
-	"github.com/Symantec/Dominator/lib/logbuf"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/logger"
+	"github.com/masiulaniec/Dominator/lib/log/debuglogger"
+	"github.com/masiulaniec/Dominator/lib/logbuf"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/logger"
 )
 
 type loggerMapT struct {

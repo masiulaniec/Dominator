@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/format"
 )
 
 func loadCertificates(directory string) ([]tls.Certificate, error) {

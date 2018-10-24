@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/filter"
 )
 
 const (

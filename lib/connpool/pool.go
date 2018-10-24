@@ -4,7 +4,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/Symantec/Dominator/lib/resourcepool"
+	"github.com/masiulaniec/Dominator/lib/resourcepool"
 )
 
 var (

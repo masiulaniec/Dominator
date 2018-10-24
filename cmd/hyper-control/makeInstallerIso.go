@@ -12,15 +12,15 @@ import (
 	"sort"
 	"syscall"
 
-	imageclient "github.com/Symantec/Dominator/imageserver/client"
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/filesystem/util"
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/nulllogger"
-	objectclient "github.com/Symantec/Dominator/lib/objectserver/client"
-	"github.com/Symantec/Dominator/lib/srpc"
-	hyper_proto "github.com/Symantec/Dominator/proto/hypervisor"
+	imageclient "github.com/masiulaniec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/filesystem/util"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/nulllogger"
+	objectclient "github.com/masiulaniec/Dominator/lib/objectserver/client"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	hyper_proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 const (

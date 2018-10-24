@@ -11,14 +11,14 @@ import (
 	"strings"
 	"syscall"
 
-	hyperclient "github.com/Symantec/Dominator/hypervisor/client"
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/lib/srpc/setupclient"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	hyperclient "github.com/masiulaniec/Dominator/hypervisor/client"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc/setupclient"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 const (

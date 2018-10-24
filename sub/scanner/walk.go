@@ -1,8 +1,8 @@
 package scanner
 
 import (
-	"github.com/Symantec/Dominator/lib/filesystem/scanner"
-	"github.com/Symantec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/filesystem/scanner"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
 )
 
 func scanFileSystem(rootDirectoryName string, cacheDirectoryName string,

@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/mdb"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/mdb"
 )
 
 func newTextGenerator(args []string,

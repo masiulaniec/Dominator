@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/filesystem/util"
-	"github.com/Symantec/Dominator/lib/log/nulllogger"
-	"github.com/Symantec/Dominator/lib/objectserver"
-	objectclient "github.com/Symantec/Dominator/lib/objectserver/client"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/filesystem/util"
+	"github.com/masiulaniec/Dominator/lib/log/nulllogger"
+	"github.com/masiulaniec/Dominator/lib/objectserver"
+	objectclient "github.com/masiulaniec/Dominator/lib/objectserver/client"
 )
 
 func getImageSubcommand(args []string) {

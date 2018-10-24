@@ -11,11 +11,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/flagutil"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	fm_proto "github.com/Symantec/Dominator/proto/fleetmanager"
-	hyper_proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/flagutil"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	fm_proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
+	hyper_proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func init() {

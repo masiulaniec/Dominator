@@ -6,14 +6,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/cpulimiter"
-	"github.com/Symantec/Dominator/lib/filesystem/scanner"
-	"github.com/Symantec/Dominator/lib/filter"
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/fsrateio"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/objectcache"
-	"github.com/Symantec/Dominator/lib/rateio"
+	"github.com/masiulaniec/Dominator/lib/cpulimiter"
+	"github.com/masiulaniec/Dominator/lib/filesystem/scanner"
+	"github.com/masiulaniec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/fsrateio"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/objectcache"
+	"github.com/masiulaniec/Dominator/lib/rateio"
 	"github.com/Symantec/tricorder/go/tricorder"
 )
 

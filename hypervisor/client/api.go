@@ -3,7 +3,7 @@ package client
 import (
 	"net"
 
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func DestroyVm(client *srpc.Client, ipAddr net.IP, accessToken []byte) error {

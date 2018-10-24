@@ -4,11 +4,11 @@ import (
 	"strconv"
 	"time"
 
-	uclient "github.com/Symantec/Dominator/imageunpacker/client"
-	"github.com/Symantec/Dominator/lib/awsutil"
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
+	uclient "github.com/masiulaniec/Dominator/imageunpacker/client"
+	"github.com/masiulaniec/Dominator/lib/awsutil"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
 )

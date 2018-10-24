@@ -9,13 +9,13 @@ import (
 	"os"
 	"os/exec"
 
-	imgclient "github.com/Symantec/Dominator/imageserver/client"
-	"github.com/Symantec/Dominator/lib/constants"
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/sub"
-	subclient "github.com/Symantec/Dominator/sub/client"
+	imgclient "github.com/masiulaniec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/lib/constants"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/sub"
+	subclient "github.com/masiulaniec/Dominator/sub/client"
 )
 
 func diffSubcommand(args []string) {

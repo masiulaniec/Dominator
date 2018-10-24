@@ -4,8 +4,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/sub"
 )
 
 var startTime time.Time = time.Now()

@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/tags"
-	proto "github.com/Symantec/Dominator/proto/fleetmanager"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/tags"
+	proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
 )
 
 type inheritingState struct {

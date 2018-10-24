@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/dom/lib"
-	"github.com/Symantec/Dominator/lib/filter"
-	"github.com/Symantec/Dominator/proto/sub"
-	"github.com/Symantec/Dominator/sub/client"
+	"github.com/masiulaniec/Dominator/dom/lib"
+	"github.com/masiulaniec/Dominator/lib/filter"
+	"github.com/masiulaniec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/sub/client"
 )
 
 func listMissingObjectsSubcommand(getSubClient getSubClientFunc,

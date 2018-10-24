@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/mdb"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/filegenerator"
+	"github.com/masiulaniec/Dominator/lib/mdb"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/filegenerator"
 )
 
 func (t *rpcType) Connect(conn *srpc.Conn, decoder srpc.Decoder,

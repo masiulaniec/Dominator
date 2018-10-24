@@ -7,9 +7,9 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/url"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/url"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func (s state) listVMsHandler(w http.ResponseWriter, req *http.Request) {

@@ -5,12 +5,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/filesystem"
-	"github.com/Symantec/Dominator/lib/hash"
-	"github.com/Symantec/Dominator/lib/image"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/debuglogger"
-	subproto "github.com/Symantec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/lib/filesystem"
+	"github.com/masiulaniec/Dominator/lib/hash"
+	"github.com/masiulaniec/Dominator/lib/image"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/debuglogger"
+	subproto "github.com/masiulaniec/Dominator/proto/sub"
 )
 
 // Returns true if there is a failure due to missing computed files.

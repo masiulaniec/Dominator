@@ -3,7 +3,7 @@ package filter
 import (
 	"regexp"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
 )
 
 func load(filename string) (*Filter, error) {

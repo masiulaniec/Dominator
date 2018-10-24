@@ -7,9 +7,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func (m *Manager) addAddressesToPool(addresses []proto.Address) error {

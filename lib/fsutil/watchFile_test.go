@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log/testlogger"
+	"github.com/masiulaniec/Dominator/lib/log/testlogger"
 )
 
 var errorTimeout = errors.New("timeout")

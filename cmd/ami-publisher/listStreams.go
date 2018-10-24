@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/imagepublishers/amipublisher"
-	libjson "github.com/Symantec/Dominator/lib/json"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/verstr"
+	"github.com/masiulaniec/Dominator/imagepublishers/amipublisher"
+	libjson "github.com/masiulaniec/Dominator/lib/json"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/verstr"
 )
 
 func listStreamsSubcommand(args []string, logger log.DebugLogger) {

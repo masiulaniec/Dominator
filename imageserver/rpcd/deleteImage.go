@@ -3,8 +3,8 @@ package rpcd
 import (
 	"errors"
 
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/imageserver"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/imageserver"
 )
 
 func (t *srpcType) DeleteImage(conn *srpc.Conn,

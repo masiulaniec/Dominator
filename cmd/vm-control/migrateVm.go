@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	hyper_proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	hyper_proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func migrateVmSubcommand(args []string, logger log.DebugLogger) {

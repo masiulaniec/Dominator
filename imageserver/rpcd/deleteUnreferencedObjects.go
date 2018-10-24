@@ -1,9 +1,9 @@
 package rpcd
 
 import (
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/imageserver"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/imageserver"
 )
 
 func (t *srpcType) DeleteUnreferencedObjects(conn *srpc.Conn,

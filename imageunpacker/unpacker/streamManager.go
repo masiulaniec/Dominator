@@ -3,8 +3,8 @@ package unpacker
 import (
 	"strconv"
 
-	"github.com/Symantec/Dominator/lib/wsyscall"
-	proto "github.com/Symantec/Dominator/proto/imageunpacker"
+	"github.com/masiulaniec/Dominator/lib/wsyscall"
+	proto "github.com/masiulaniec/Dominator/proto/imageunpacker"
 )
 
 // This must be called with the lock held.

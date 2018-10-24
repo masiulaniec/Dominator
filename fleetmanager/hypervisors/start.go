@@ -1,8 +1,8 @@
 package hypervisors
 
 import (
-	"github.com/Symantec/Dominator/lib/html"
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/html"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 func newManager(storer Storer, logger log.DebugLogger) (*Manager, error) {

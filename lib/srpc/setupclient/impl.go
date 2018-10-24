@@ -3,7 +3,7 @@ package setupclient
 import (
 	"crypto/tls"
 
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func setupTls(ignoreMissingCerts bool) error {

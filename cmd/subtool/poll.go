@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/sub"
-	"github.com/Symantec/Dominator/sub/client"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/sub"
+	"github.com/masiulaniec/Dominator/sub/client"
 )
 
 func pollSubcommand(getSubClient getSubClientFunc, args []string) {

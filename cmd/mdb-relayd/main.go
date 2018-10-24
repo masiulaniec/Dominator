@@ -7,9 +7,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/Symantec/Dominator/lib/mdb"
-	"github.com/Symantec/Dominator/lib/mdb/mdbd"
-	"github.com/Symantec/Dominator/lib/srpc/setupclient"
+	"github.com/masiulaniec/Dominator/lib/mdb"
+	"github.com/masiulaniec/Dominator/lib/mdb/mdbd"
+	"github.com/masiulaniec/Dominator/lib/srpc/setupclient"
 )
 
 var (

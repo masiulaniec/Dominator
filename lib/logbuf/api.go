@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/flagutil"
+	"github.com/masiulaniec/Dominator/lib/flagutil"
 )
 
 var (

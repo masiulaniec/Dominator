@@ -5,9 +5,9 @@ import (
 	"net"
 	"os"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/log"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/log"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func changeVmOwnerUsersSubcommand(args []string, logger log.DebugLogger) {

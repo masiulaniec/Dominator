@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 const flushDelay = time.Millisecond * 10

@@ -3,9 +3,9 @@ package rpcd
 import (
 	"net"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/srpc"
-	"github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func (t *srpcType) ImportLocalVm(conn *srpc.Conn,

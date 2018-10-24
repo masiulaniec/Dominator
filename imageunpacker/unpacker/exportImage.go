@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/format"
-	proto "github.com/Symantec/Dominator/proto/imageunpacker"
+	"github.com/masiulaniec/Dominator/lib/format"
+	proto "github.com/masiulaniec/Dominator/proto/imageunpacker"
 )
 
 var (

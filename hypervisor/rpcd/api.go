@@ -4,10 +4,10 @@ import (
 	"io"
 	"net"
 
-	"github.com/Symantec/Dominator/hypervisor/manager"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	"github.com/masiulaniec/Dominator/hypervisor/manager"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 type DhcpServer interface {

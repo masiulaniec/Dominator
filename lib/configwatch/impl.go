@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/fsutil"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/url/urlutil"
+	"github.com/masiulaniec/Dominator/lib/fsutil"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/url/urlutil"
 )
 
 func watch(url string, checkInterval time.Duration,

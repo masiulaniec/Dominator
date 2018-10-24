@@ -1,9 +1,9 @@
 package rpcd
 
 import (
-	"github.com/Symantec/Dominator/dom/herd"
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/dom/herd"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 type rpcType struct {

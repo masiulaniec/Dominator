@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Symantec/Dominator/lib/net/proxy"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/net/proxy"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func dialFleetManager(address string) (*srpc.Client, error) {

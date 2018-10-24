@@ -1,7 +1,7 @@
 package mdb
 
 import (
-	"github.com/Symantec/Dominator/lib/tags"
+	"github.com/masiulaniec/Dominator/lib/tags"
 )
 
 func (left Machine) compare(right Machine) bool {

@@ -1,7 +1,7 @@
 package debuglogger
 
 import (
-	"github.com/Symantec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log"
 )
 
 type Logger struct {

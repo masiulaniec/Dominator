@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/connpool"
-	libnet "github.com/Symantec/Dominator/lib/net"
+	"github.com/masiulaniec/Dominator/lib/connpool"
+	libnet "github.com/masiulaniec/Dominator/lib/net"
 	"github.com/Symantec/tricorder/go/tricorder"
 	"github.com/Symantec/tricorder/go/tricorder/units"
 )

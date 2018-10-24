@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Symantec/Dominator/lib/html"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/lib/html"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func (herd *Herd) statusHandler(w http.ResponseWriter, req *http.Request) {

@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Symantec/Dominator/lib/log"
-	"github.com/Symantec/Dominator/lib/log/prefixlogger"
-	"github.com/Symantec/Dominator/lib/log/testlogger"
-	libnet "github.com/Symantec/Dominator/lib/net"
+	"github.com/masiulaniec/Dominator/lib/log"
+	"github.com/masiulaniec/Dominator/lib/log/prefixlogger"
+	"github.com/masiulaniec/Dominator/lib/log/testlogger"
+	libnet "github.com/masiulaniec/Dominator/lib/net"
 )
 
 const (

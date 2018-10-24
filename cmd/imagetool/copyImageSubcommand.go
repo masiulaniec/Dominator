@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Symantec/Dominator/imageserver/client"
-	"github.com/Symantec/Dominator/lib/srpc"
+	"github.com/masiulaniec/Dominator/imageserver/client"
+	"github.com/masiulaniec/Dominator/lib/srpc"
 )
 
 func copyImageSubcommand(args []string) {

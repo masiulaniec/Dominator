@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Symantec/Dominator/lib/format"
-	"github.com/Symantec/Dominator/lib/meminfo"
+	"github.com/masiulaniec/Dominator/lib/format"
+	"github.com/masiulaniec/Dominator/lib/meminfo"
 )
 
 func (m *Manager) writeHtml(writer io.Writer) {

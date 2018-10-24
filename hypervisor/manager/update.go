@@ -1,7 +1,7 @@
 package manager
 
 import (
-	proto "github.com/Symantec/Dominator/proto/hypervisor"
+	proto "github.com/masiulaniec/Dominator/proto/hypervisor"
 )
 
 func (m *Manager) closeUpdateChannel(channel <-chan proto.Update) {

@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Symantec/Dominator/lib/errors"
-	"github.com/Symantec/Dominator/lib/log"
-	proto "github.com/Symantec/Dominator/proto/fleetmanager"
+	"github.com/masiulaniec/Dominator/lib/errors"
+	"github.com/masiulaniec/Dominator/lib/log"
+	proto "github.com/masiulaniec/Dominator/proto/fleetmanager"
 )
 
 func listHypervisorsSubcommand(args []string, logger log.DebugLogger) {
